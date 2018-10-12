@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/hello', function () {
     return "<h1>Hello World</h1>";
 });
+
+Route::get('/ok', function () {
+    return "<h1>OKE</h1>";
+});
