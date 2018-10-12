@@ -19,6 +19,6 @@ Route::get('/hello', function () {
     return "<h1>Hello World</h1>";
 });
 
-Route::get('/oke', function () {
-    return "<h1>OKE</h1>";
+Route::get('/sip', function () {
+    return "<h1>SIP</h1>";
 });
